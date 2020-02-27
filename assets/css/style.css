@@ -8,8 +8,6 @@
     transition: .5s;
 }
 
-#presentation {
-    height: 513px;
-    padding: 30px 70px;
-    background: red;
+.page-content {
+    padding: 30px 70px !important;
 }

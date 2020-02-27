@@ -35,7 +35,7 @@ class controller {
      */
     public function loadViewInTemplate($viewName, $viewData = array()) {
         extract($viewData);
-        require_once 'views/' . $viewName . '.html';
+        require_once 'views/' . $viewName . '.php';
     }
 
 }
